@@ -1,0 +1,82 @@
+.menubar {
+  width: 100%;
+  height: 70px;
+  background-color: #2d2928;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px black;
+}
+
+.menubar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.menubar .rightSide {
+  padding-right: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menubar .rightSide .navitems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar .leftSide btn {
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  &:hover {
+    color: #d5aa7f;
+  }
+}
+
+.menubar .rightSide .ButtonContainer {
+  width: 700px;
+  height: 100%;
+  /* display: flex; */
+  justify-content: centerd;
+  align-items: center;
+  padding: 50px;
+}
+
+.menubar .rightSide .ButtonContainer h1 {
+  width: 50%;
+  display: flex;
+  color: #d5aa7f;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.menubar .rightSide .ViewButton {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-weight: bold;
+  width: 100;
+  border: 1px solid #7a7a7a;
+  border-radius: 20px;
+  color: black;
+  font-size: 15px;
+  background: #d5aa7f;
+  cursor: pointer;
+  padding: 15px;
+  &:hover {
+    background-color: #1e1e1e;
+    color: #d5aa7f;
+  }
+}

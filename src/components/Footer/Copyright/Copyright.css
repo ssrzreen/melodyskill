@@ -1,0 +1,7 @@
+.copyrightcontainer {
+  padding: 20px;
+  background-color: #2d2928;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

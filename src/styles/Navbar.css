@@ -1,0 +1,168 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #d5aa7f;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.navbar .leftSide img {
+  width: 160px;
+}
+
+.navbar .rightSide {
+  flex: 1000%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .rightSide .navitems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .rightSide .navitems btn {
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+  color: #1e1e1e;
+  font-size: 16px;
+  background: #d5aa7f;
+  cursor: pointer;
+  padding: 10px;
+  &:hover {
+    background-color: #4b2804;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+}
+
+.navbar .rightSide .ButtonContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+  padding: 50px;
+}
+
+.navbar .rightSide .LoginButton {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #7a7a7a;
+  border-radius: 8px;
+  color: #515151;
+  font-size: 16px;
+  background: #d5aa7f;
+  cursor: pointer;
+  padding: 20px;
+  &:hover {
+    background-color: #1e1e1e;
+    color: #d5aa7f;
+  }
+}
+.navbar .rightSide .RegisButton {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #7a7a7a;
+  border-radius: 8px;
+  color: #d5aa7f;
+  font-size: 16px;
+  background: #1e1e1e;
+  cursor: pointer;
+  padding: 20px;
+  &:hover {
+    background-color: #d5aa7f;
+    color: #1e1e1e;
+  }
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}

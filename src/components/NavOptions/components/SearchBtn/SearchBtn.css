@@ -1,0 +1,24 @@
+.ButtonContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.SearchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #7a7a7a;
+  border-radius: 8px;
+  color: #515151;
+  font-size: 16px;
+  background: #d5aa7f;
+  cursor: pointer;
+  &:hover {
+    background-color: #1e1e1e;
+      color: #d5aa7f;
+  }
+}

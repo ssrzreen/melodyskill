@@ -1,0 +1,90 @@
+.detailscontainer {
+    width: 100%;
+    height: 100%;
+    background-color: #2d2928;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .detailscontainer h1 {
+    /* width: 50%; */
+    /* display: flex; */
+    font-size: 25px;
+    padding-left: 50px;
+    color: #d5aa7f;
+    font-weight: blod;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .detailscontainer h2 {
+    font-size: 22px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-weight: blod;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .detailscontainer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .details p {
+    /* width: 30%; */
+    color: #ffffff;
+  }
+  
+  .detailscontainer .details {
+    padding-left: 50px;
+    display: flex;
+    justify-content: column;
+  }
+  
+  .detailscontainer .details img {
+    width: 30%;
+    padding-right: 20px;
+  }
+  .detail {
+    width: 20%;
+    padding-right: 10px;
+  }
+  .detail2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .SeeButton {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    border: 1px solid #7a7a7a;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    background: #d5aa7f;
+    cursor: pointer;
+    padding: 15px;
+    &:hover {
+      background-color: #1e1e1e;
+      color: #d5aa7f;
+    }
+  }
+  
+  .detailscontainer a {
+      padding-left: 50px;
+      color: #d5aa7f;
+      font-weight: 100;
+      font-size: 13px;
+      align-items: center;
+      justify-content: center;
+    }
+  
